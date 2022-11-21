@@ -1,9 +1,10 @@
 
 # george_classifier
 
-This project is based on project on classification of the presence of St. George in the image.
+- This project is based on classification of the presence of St. George in the image.
+- I am using state of the art pre-trained YOLOV7
 
-# Steps to run this classifier on your system
+# Steps to Classify St george from the set of images.
 
 ## Pre-Processing of Dataset
 - Clone this repository.
@@ -68,3 +69,36 @@ As the training is resource extensive. It is recommended to use google colab, wh
 
 **Classification steps:**
 - run the last cell `Yolov7-training.ipynb`. The result will be saved in 'classification_result/' folder.
+
+# Steps to run this classifier at your disposal
+- step1: clone this repo at your local machine-
+
+  `git clone https://github.com/abuzarmd-ML/george_classifier.git`
+
+- Step2: make virtual environment on your system:
+
+  **For linux :**
+  - use the command on the terminal:
+    
+    `mkvirtualenv george_classifier`
+
+  - write the command to get in the virtual env:
+    
+    `workon george_classifier`
+
+  **For Windows :**
+  - Follow through the link below:
+    
+    [virtual environment on windows](https://medium.com/co-learning-lounge/create-virtual-environment-python-windows-2021-d947c3a3ca78)
+
+- Install all the dependencies with custom manager `dependencies_resolver.sh`
+  command : ` bash dependencies_resolver.sh`
+
+- To test the result of the classifier, run the bash script `inference_classification_local.sh`
+
+  command: `bash inference_classification_local.sh`
+  
+  ***NOTE :*** You can change the script to locate your directory of test images.
+  change the flag value `--source ./test` (in place of test/ folder, put your directory)
+
+- The classified images are there in the `runs/detect/exp` folder. As many times you will run the inference,new folder will be created at the same location, only change will be `exp or exp1 or exp2`. Most recent is the highest indexed folder.
