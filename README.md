@@ -65,3 +65,6 @@ As the training is resource extensive. It is recommended to use google colab, wh
 - You may find different weights folder there, but last one is the most recent.
 - In the last folder, you can find `weights` folder inside that. expand it and various kind of file can be seen.
 - you can find best model out there- `yolov7/runs/train/yolov7-custom2/best.pt`.
+
+**Classification steps:**
+- run the last cell `Yolov7-training.ipynb`. The result will be saved in 'classification_result/' folder.
