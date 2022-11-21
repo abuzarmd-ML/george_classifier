@@ -2,7 +2,16 @@
 # george_classifier
 
 - This project is based on classification of the presence of St. George in the image.
-- I am using state of the art pre-trained YOLOV7
+- I am using state of the art pre-trained **YOLOV7**.
+
+  **Why YOLOv7?**
+
+  - According to official [YOLOv7](https://github.com/WongKinYiu/yolov7/blob/main/paper/yolov7.pdf), YOLOv7 surpasses all known object detectors in both speed and accuracy. It provides Trainable bag-of-freebies.
+  
+  - we cannot gather ton of data for training, YOLO is already trained on COCO dataset.
+  - Convolutional neural architecture provided by YOLO is next level.
+  - Training images for neural nets is resource extensive, Yolo is already trained. Feature extraction are already done by yolo. We will just train on our dataset and get the model weights at our disposal.
+
 
 # Steps to Classify St george from set of images.
 
