@@ -103,8 +103,14 @@ As the training is resource extensive. It is recommended to use google colab, wh
 
 - The classified images are there in the `runs/detect/exp` folder. As many times you will run the inference,new folder will be created at the same location, only change will be `exp or exp1 or exp2`. Most recent is the highest indexed folder.
 
-### DEMO:
+### Classification Result:
+**Image with George Present**
+
 ![george](https://github.com/abuzarmd-ML/george_classifier/blob/main/runs/detect/exp/67f2364f5913828fdbcfbdb29b3388d2.jpg)
+
+**Image with George Absent**
+
+![No george](https://github.com/abuzarmd-ML/george_classifier/blob/main/runs/detect/exp/91f995379ab2d6ad77c55a328032e471.jpg)
 
 ## Acknowledgements
  - [My google Drive link where I performed training](https://drive.google.com/drive/folders/1-LZGa5BC_Taf3wKBm71MZMO0P8HyCwkm?usp=share_link)
