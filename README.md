@@ -4,7 +4,7 @@
 - This project is based on classification of the presence of St. George in the image.
 - I am using state of the art pre-trained YOLOV7
 
-# Steps to Classify St george from the set of images.
+# Steps to Classify St george from set of images.
 
 ## Pre-Processing of Dataset
 - Clone this repository.
