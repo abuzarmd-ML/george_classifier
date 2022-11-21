@@ -13,7 +13,7 @@
   - Training images for neural nets is resource extensive, Yolo is already trained. Feature extraction are already done by yolo. We will just train on our dataset and get the model weights at our disposal.
 
 
-# Steps to Classify St george from set of images.
+# 1.Steps to Classify St george from scratch.
 
 ## Pre-Processing of Dataset
 - Clone this repository.
@@ -79,7 +79,7 @@ As the training is resource extensive. It is recommended to use google colab, wh
 **Classification steps:**
 - run the last cell `Yolov7-training.ipynb`. The result will be saved in 'classification_result/' folder.
 
-# Steps to run this classifier at your disposal
+# 2.Steps to run this classifier at your disposal
 - step1: clone this repo at your local machine-
 
   `git clone https://github.com/abuzarmd-ML/george_classifier.git`
